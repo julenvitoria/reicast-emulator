@@ -19,7 +19,7 @@ ifeq (,$(platform))
         ifneq (,$(findstring BCM2709,$(HARDWARE)))
             platform = rpi2
         else ifneq (,$(findstring BCM2835,$(HARDWARE)))
-            platform = rpi4
+            platform = rpi3
         else ifneq (,$(findstring BCM2711,$(HARDWARE)))
             platform = rpi4
         else ifneq (,$(findstring AM33XX,$(HARDWARE)))
